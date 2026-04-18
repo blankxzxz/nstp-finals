@@ -1689,3 +1689,4 @@ window.debugAuthState = () => {
     console.log("========================");
     alert(`Auth: ${auth.currentUser ? 'Logged in as ' + auth.currentUser.email : 'Not logged in'}\nFirestore: ${useFirestore ? 'Enabled' : 'Disabled'}`);
 };
+window.saveProgram = saveProgram;
